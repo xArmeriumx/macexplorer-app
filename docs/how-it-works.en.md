@@ -80,3 +80,13 @@ Keypress → collision check + validation → work on background actor
 
 A name collision always asks first — never overwrites silently. A failure
 always reports where the original was preserved.
+
+## New in v0.2.0
+
+- **Progress + Cancel:** large copies stream in 1 MB chunks with a progress bar
+  (`Copying A.zip — 12 MB of 48 MB`) and a Cancel button — cancelling removes
+  partial destinations, keeps the source intact, and reports no error.
+- **Breadcrumb dropdowns:** every `>` opens its segment's sibling folders with
+  a checkmark on the current location.
+- **Favorites + Recent:** pin folders in the sidebar (drag to add) and revisit
+  the last 30 locations from Go → Recent Locations.

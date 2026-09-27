@@ -56,6 +56,9 @@ MacExplorer คือแอปจัดการไฟล์บน macOS ที�
 - Copy/Cut/Paste: `Ctrl+C/X/V` · เปลี่ยนชื่อ: `F2` · ลบลงถัง: `Delete`
 - ดูตัวอย่างไฟล์: `Space` (Quick Look) · เปิดหลายโฟลเดอร์พร้อมกันด้วย Tabs
 - ถ้าชื่อไฟล์ซ้ำ แอปจะถามก่อนเสมอ (Replace / Keep Both / Skip) ไม่เขียนทับเงียบ
+- ใหม่ใน v0.2.0: แถบ progress + ปุ่ม Cancel ตอนก๊อปไฟล์ใหญ่ ·
+  กด `>` ใน breadcrumb เปิดเมนูโฟลเดอร์ข้างเคียง ·
+  Favorites (ลากโฟลเดอร์มาปักหมุดได้) + Recent Locations ในเมนู Go
 
 ### ระบบทำงานอย่างไร
 
@@ -100,6 +103,9 @@ as a genuine native app (Quick Look, Spotlight, Light/Dark Mode).
 - Preview with `Space` (Quick Look) · work in several folders with Tabs
 - Name collisions always ask first (Replace / Keep Both / Skip) — never
   overwritten silently
+- New in v0.2.0: progress bar + Cancel for large copies ·
+  sibling-folder menus on every breadcrumb `>` ·
+  Favorites (drag folders to pin) + Recent Locations in the Go menu
 
 ### How it works
 
